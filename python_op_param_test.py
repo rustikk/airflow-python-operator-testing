@@ -21,7 +21,7 @@ default_args = {
 
 with DAG(
     dag_id="python_operator_tests",
-    start_date=datetime(2012, 10, 24),
+    start_date=datetime(2021, 10, 24),
     schedule_interval=timedelta(minutes=10),
     catchup=False,
     default_args=default_args,
