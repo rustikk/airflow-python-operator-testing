@@ -56,7 +56,7 @@ with DAG(
             "website_boilerplt": "texty.html",
             "python": "pypy.py",
         },
-        # templates_exts=(".sql", ".html", ".py"),
+        # templates_exts=[".sql", ".html", ".py"],
     )
 
 t1 >> t2 >> t3
